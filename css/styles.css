@@ -134,6 +134,14 @@ img {
   display: flex;
   align-items: center;
 }
+.contact-list-item::before {
+  content: "";
+  width: 16px;
+  height: 12px;
+  background-color: tomato;
+  margin-left: 10px;
+}
+
 .contact-list-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -297,6 +305,26 @@ img {
   text-align: center;
 }
 /*Конец наша команда*/
+
+/*Постоянные клиенты*/
+.clients-list {
+  display: flex;
+  flex-basis: calc((100 - 180px / 6));
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.clients-item {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.client-logo {
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+}
+/*Конец Постоянные клиенты*/
 
 /* Фильтр*/
 
