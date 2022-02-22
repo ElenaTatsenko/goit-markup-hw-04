@@ -346,6 +346,8 @@ img {
   flex-basis: calc((100 - 120px / 4));
   margin-left: 30px;
   margin-top: 30px;
+  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.2), 1px 0 1px 0 rgba(0, 0, 0, 0.14),
+    3px 0 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .team-subtitle {
@@ -420,6 +422,8 @@ img {
 .filter-btn:focus {
   color: var(--complementary-color);
   background-color: var(--accent-color);
+  box-shadow: 2px 0 2px 0 rgba(0, 0, 0, 0.12), 2px 0 1px 0 rgba(0, 0, 0, 0.08),
+    1px 0 3px 0 rgba(0, 0, 0, 0.1);
 }
 /* Конец фильтр*/
 
@@ -444,16 +448,21 @@ img {
   padding: 20px 24px;
   border: 1px solid#EEEEEE;
 }
-.portfolio-link:hover
+.portfolio-link:hover {
+  box-shadow: 6px 1px 4px 0 rgba(0, 0, 0, 0.16), 4px 0 4px 0 rgba(0, 0, 0, 0.06),
+    1px 0 1px 0 rgba(0, 0, 0, 0.12);
+}
 
 /* Конец работы*/
 
 /*Футер*/
+
 .footer {
   background-color: var(--dark-theme-background);
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer-logo {
   margin-bottom: 20px;
 }
