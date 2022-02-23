@@ -221,11 +221,12 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("/images/bg-hero.jpg");
+    url("../images/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
   text-align: center;
+  padding: 200px;
 }
 .hero-content {
   /*background-image: url("/images/bg-hero.jpg");*/
@@ -346,8 +347,9 @@ img {
   flex-basis: calc((100 - 120px / 4));
   margin-left: 30px;
   margin-top: 30px;
-  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.2), 1px 0 1px 0 rgba(0, 0, 0, 0.14),
-    3px 0 1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-subtitle {
@@ -422,8 +424,9 @@ img {
 .filter-btn:focus {
   color: var(--complementary-color);
   background-color: var(--accent-color);
-  box-shadow: 2px 0 2px 0 rgba(0, 0, 0, 0.12), 2px 0 1px 0 rgba(0, 0, 0, 0.08),
-    1px 0 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 /* Конец фильтр*/
 
@@ -442,15 +445,19 @@ img {
 }
 .portfolio-subtitle {
   margin-bottom: 4px;
+  color: var(--main-color);
 }
 
 .portfolio-content-wrapper {
   padding: 20px 24px;
   border: 1px solid#EEEEEE;
 }
+.portfolio-link {
+  display: block;
+}
 .portfolio-link:hover {
-  box-shadow: 6px 1px 4px 0 rgba(0, 0, 0, 0.16), 4px 0 4px 0 rgba(0, 0, 0, 0.06),
-    1px 0 1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* Конец работы*/
